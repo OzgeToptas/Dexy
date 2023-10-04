@@ -13,7 +13,7 @@ const Cat = ({
   ...rest
 }) => {
   const snap = useSnapshot(state)
-  const { nodes, materials } = useGLTF('src/cat.glb')
+  const { nodes, materials } = useGLTF('../src/cat.glb')
   const group = useRef()
 
   // Animate model
