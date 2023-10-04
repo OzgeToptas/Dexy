@@ -83,7 +83,7 @@ const App = () => {
             onPointerDown={onPointerDown}
             onPointerMissed={onPointerMissed}
           />
-          <Environment files='./src/royal_esplanade_1k.hdr' />
+          <Environment files='/src/royal_esplanade_1k.hdr' />
           <ContactShadows
             rotation-x={Math.PI / 2}
             position={[0, -2.4, 0]}
